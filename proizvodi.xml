@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Prodavnica>
+  <Proizvod>
+    <Kategorija vrsta="laptopovi"></Kategorija>
+    <Cena valuta="RSD">149999</Cena>
+    <Tekst>Laptop ACER Rage 9001 Pro</Tekst>
+    <Tag>laptop desktop acer pro gamer</Tag>
+    <Akcija cena="124999" datumIsteka="2021-05-01"></Akcija>
+  </Proizvod>
+
+  <Proizvod>
+    <Kategorija vrsta="laptopovi"></Kategorija>
+    <Cena valuta="RSD">134999</Cena>
+    <Tekst>Laptop HP Pavillion Doomboy X</Tekst>
+    <Tag>laptop desktop hp pavillion gamer</Tag>
+  </Proizvod>
+
+  <Proizvod>
+    <Kategorija vrsta="laptopovi"></Kategorija>
+    <Cena valuta="RSD">49999</Cena>
+    <Tekst>Laptop HP Scrub Office</Tekst>
+    <Tag>laptop desktop hp office notebook</Tag>
+  </Proizvod>
+
+  <Proizvod>
+    <Kategorija vrsta="stolice"></Kategorija>
+    <Cena valuta="RSD">19999</Cena>
+    <Tekst>Kancelarijska Fotelja</Tekst>
+    <Tag>fotelja stolica kancelarija udobno</Tag>
+    <Akcija cena="16999" datumIsteka="2021-06-05"></Akcija>
+  </Proizvod>
+
+  <Proizvod>
+    <Kategorija vrsta="tastature"></Kategorija>
+    <Cena valuta="RSD">4999</Cena>
+    <Tekst>Gejmerska Tastatura - Mehanicka</Tekst>
+    <Tag>tastatura gaming mehanicka rgb</Tag>
+  </Proizvod>
+
+  <Proizvod>
+    <Kategorija vrsta="tastature"></Kategorija>
+    <Cena valuta="RSD">5599</Cena>
+    <Tekst>Gejmerska Tastatura - RGB</Tekst>
+    <Tag>tastatura gaming rgb</Tag>
+  </Proizvod>
+</Prodavnica>
