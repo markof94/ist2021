@@ -1,0 +1,11 @@
+<!ELEMENT Prodavnica (Proizvod+)>
+<!ELEMENT Proizvod (Kategorija,Cena,Tekst,Tag,Akcija?)>
+<!ELEMENT Kategorija EMPTY>
+<!ATTLIST Kategorija vrsta (laptopovi|tastature|stolice) #REQUIRED>
+<!ELEMENT Cena (#PCDATA)>
+<!ATTLIST Cena valuta NMTOKEN "RSD">
+<!ELEMENT Tekst (#PCDATA)>
+<!ELEMENT Tag (#PCDATA)>
+<!ELEMENT Akcija EMPTY>
+<!ATTLIST Akcija cena NMTOKEN #REQUIRED>
+<!ATTLIST Akcija datumIsteka NMTOKEN #REQUIRED>
