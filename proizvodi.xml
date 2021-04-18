@@ -1,5 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE Prodavnica SYSTEM "proizvodi.dtd">
+<?xml-model href="proizvodi.xsd"?>
 <Prodavnica>
   <Proizvod>
     <Kategorija vrsta="laptopovi"></Kategorija>

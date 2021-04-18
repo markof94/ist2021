@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Prodavnica">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Proizvod" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Kategorija">
+                <xs:complexType>
+                  <xs:attribute name="vrsta" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Cena">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="valuta" use="required" fixed="RSD" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Tekst">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:minLength value="10" />
+                    <xs:maxLength value="180" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tag" type="xs:string" maxOccurs="5"/>
+              <xs:element name="Akcija" minOccurs="0">
+                <xs:complexType>
+                  <xs:attribute name="cena" type="xs:integer" use="required" />
+                  <xs:attribute name="datumIsteka" type="xs:date" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
