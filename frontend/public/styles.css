@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111111;
+  color: #FFFFFF;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.container {
+  position: relative;
+  max-width: 100vmin;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+.proizvodi-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.proizvod {
+  position: relative;
+  padding: 10px 0;
+  margin: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+.dugmici {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+
+.dugmici>a {
+  width: 100%;
+}
+
+.dugmici>a:first-child:not(:last-child) {
+  margin-right: 10px;
+}
+
+.tekst {
+  font-size: 20px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+.cena {
+  color: #BBBBBB;
+}
+
+.kategorija {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.kategorija>div {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.natpis {
+  font-size: 15px;
+  text-transform: capitalize;
+  margin-top: 4px;
+}
+
+button {
+  width: 100%;
+  height: 38px;
+  padding: 0 12px;
+  cursor: pointer;
+  background: #007AFF;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  transition: all 0.15s ease;
+}
+
+button:hover {
+  background: #0069EE;
+}
+
+.delete {
+  background: #F44336;
+}
+
+.delete:hover {
+  background: #E33225;
+}
+
+button:active {
+  transform: scale(0.95, 0.95);
+}
+
+form {
+  position: relative;
+  padding: 10px 0;
+  width: 100%;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  width: 100%;
+}
+
+a {
+  margin: 0;
+}
+
+a:visited {
+  color: white;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.tagovi {
+  color: #AAAAAA;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+nav>a:not(:last-child):after {
+  margin-left: 10px;
+  margin-right: 10px;
+  content: '|';
+}
+
+select, select>* {
+  font-family: inherit;
+  outline: none;
+  padding: 10px 5px;
+}

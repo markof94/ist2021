@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dodavanje Proizvoda</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav>
+      <a href="/products">Katalog</a>
+      <a href="/newProduct">Dodaj</a>
+    </nav>
+    <form action="/addProduct" method="post">
+      <input type="text" name="text" placeholder="Tekst proizvoda">
+      <br>
+      <input type="text" name="price" placeholder="Cena">
+      <br>
+      <input type="text" name="tags" placeholder="Tagovi">
+      <br>
+      <div class="kategorija">
+        <div>Kategorija</div>
+        <select name="category" id="category">
+          <option value="laptopovi">Laptopovi</option>
+          <option value="stolice">Stolice</option>
+          <option value="tastature">Tastature</option>
+        </select>
+      </div>
+      <button type="submit">Dodaj Proizvod</button>
+    </form>
+  </div>
+</body>
+
+</html>

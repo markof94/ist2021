@@ -1,0 +1,30 @@
+[
+  {
+    "id": "0",
+    "category": "laptopovi",
+    "price": 149999,
+    "currency": "RSD",
+    "text": "Laptop ACER Rage 9001 Pro",
+    "tags": "laptop desktop acer pro gamer",
+    "discounts": [
+      {
+        "price": 124999,
+        "expirationDate": "2021-05-01"
+      }
+    ]
+  },
+  {
+    "id": "1",
+    "category": "laptopovi",
+    "price": 125999,
+    "currency": "RSD",
+    "text": "Laptop HP Pavillion Doomboy X",
+    "tags": "laptop desktop hp pro gamer",
+    "discounts": [
+      {
+        "price": 124999,
+        "expirationDate": "2021-05-01"
+      }
+    ]
+  }
+]
